@@ -1,0 +1,49 @@
+1.	mkdir exercise
+	mkdir -p dir1/dir2/dir3
+
+2.	touch emptyFile1 emptyFile2
+	rm -r dir2
+
+3.	sudo bash -c 'echo "Hello World" > file.txt'
+
+4.	find /etc/ -type f -name passwd
+	cp -i /etc/passwd ../exercise/passwd_copy
+	mv passwd_copy passwd_backup
+
+5.	less passwd_backup
+	more -10 passwd_backup
+	cat passwd_backup passwd_backup
+
+6.	grep -c "/bin/false" passwd_backup
+
+7.	bash -c  'grep -c "/bin/false" passwd_backup >> output'
+
+8.	sudo useradd -c "sunil" sunil -s /bin/bash -m
+	sudo passwd sunil
+	id -u test
+	id -g test
+
+9.	Not able to make changes
+
+10.	sudo chown sunil:sunil output
+	sudo chmod 777 output
+	sudo chmod 000 output
+
+11. 	alias aliastesting=clear
+
+12.	add aliase in ~/.bashrc	 	alias sunil='clear; echo Welcome'
+	. ~/.bashrc
+
+13.	sudo apt-get update
+	sudo apt-get install zip
+	sudo apt-get install unzip
+
+14.	create tar			sudo tar -zcvf backup.tar.gz ./output ./passwd_backup
+	List the content of tar		tar -tvf backup.tar.gz		
+
+15.	 scp backup.tar.gz ../sunil/
+
+16.	
+
+17.
+	
