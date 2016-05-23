@@ -4,7 +4,7 @@
 hahaha, It's VIRUS
 3.	sudo bash -c 'echo "Hello World" > file.txt'
 
-4.	find /etc/ -type f -name passwd
+4.	AGAIN ITS VIRUS
 	cp -i /etc/passwd ../exercise/passwd_copy
 	mv passwd_copy passwd_backup
 
